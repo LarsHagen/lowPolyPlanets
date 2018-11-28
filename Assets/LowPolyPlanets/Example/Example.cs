@@ -12,7 +12,7 @@ public class Example : MonoBehaviour
     {
         if (planet != null)
         {
-            planet.transform.eulerAngles = new Vector3(0, Time.time * 3f, 0);
+            planet.transform.eulerAngles = new Vector3(0, Time.time * 10f / planet.size, 0);
         }
     }
 
